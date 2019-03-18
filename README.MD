@@ -2,7 +2,7 @@
 # "Tank Battle" redme
 		
 ## Requirements
-	Windowsor or Linux
+	Windows or or Linux
 	Java SE Runtime Environment 8 or later
 	Screen resolution 800 x 600 pixels or more
 	
