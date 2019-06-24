@@ -206,7 +206,7 @@ public class AStar
 		//searching for items on map and set it on matrix
 		mapping();
 							
-		printMatrix();
+		//printMatrix();
 				
 		aStar();
 				
