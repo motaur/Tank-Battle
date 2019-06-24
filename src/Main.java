@@ -18,7 +18,7 @@ public class Main
 	//game play variables
 	public static int levelOnStart = 1; 	//1-10
 	public static int lives = 10;
-	public static boolean astar = true;
+	public static boolean astar = false;
 	
 					
 	public static void main(String[] args) 
