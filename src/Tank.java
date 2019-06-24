@@ -60,15 +60,12 @@ public class Tank extends FieldItem
 		task = new ScheduledThreadPoolExecutor(1).scheduleAtFixedRate(() -> update(), speed, speed, TimeUnit.MILLISECONDS);
 		timer = new ScheduledThreadPoolExecutor(1);	
 		
-		new ScheduledThreadPoolExecutor(1).schedule(() -> astar = new AStar(this), /*delay*/1000, TimeUnit.MILLISECONDS); 
+		 
 		
-		/*if(Main.astar)
-		{
-			System.out.println("Astar");
-			
-		}
+		if(Main.astar)		
+			new ScheduledThreadPoolExecutor(1).schedule(() -> astar = new AStar(this), /*delay*/1000, TimeUnit.MILLISECONDS);
 		else	
-			new ScheduledThreadPoolExecutor(1).schedule(() -> controller = new BotController(this), /*delay*/  /*1000, TimeUnit.MILLISECONDS);*/ 
+			new ScheduledThreadPoolExecutor(1).schedule(() -> controller = new BotController(this), /*delay*/  1000, TimeUnit.MILLISECONDS);
 	}
 			
 	private void update()
