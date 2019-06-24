@@ -1,7 +1,9 @@
 
 # Tank Battle
-Tank battle - it's old school arcade game in style of Battle City, Developed on Java and Java standard libraries
-Contents 10 levels with increasing difficulty level, try to pass them if you can!
+Tank battle - it's old school arcade game in style of Battle City, developed with Java standard libraries, 
+contents 10 levels with increasing difficulty. Try to pass them if you can!
+
+Change variable "Astar" in Main class to be "true" to apply Astar pathfinding algorithm (need improvemnt).
 		
 ## Requirements
 	Windows or Linux
